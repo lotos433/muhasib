@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Əlaqə - Accounting Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">Accounting<span>Pro</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Əsas Səhifə</a></li>
+                <li><a href="about.html">Haqqımızda</a></li>
+                <li><a href="services.html">Xidmətlərimiz</a></li>
+                <li><a href="contact.html" class="active">Əlaqə</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Əlaqə</h1>
+            <p>Biznesiniz üçün ən yaxşı həlli tapaq</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Bizimlə Əlaqə Saxlayın</h2>
+                    <p>Sualınız var? Biznesiniz üçün necə kömək edə biləcəyimizi danışaq.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Ünvan</h4>
+                            <p>Nizami küçəsi 123, Bakı, Azərbaycan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Telefon</h4>
+                            <p>+994 50 000 00 00</p>
+                            <p>+994 12 345 67 89</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@accountingpro.az</p>
+                            <p>support@accountingpro.az</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-details">
+                            <h4>İş Saatları</h4>
+                            <p>Bazar ertəsi - Cümə: 9:00 - 18:00</p>
+                            <p>Şənbə: 10:00 - 15:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Bizi İzləyin</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">Facebook</a>
+                            <a href="#" class="social-icon">LinkedIn</a>
+                            <a href="#" class="social-icon">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Pulsuz Konsultasiya üçün Müraciət Edin</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Adınız</label>
+                            <input type="text" id="name" name="name" required placeholder="Adınızı daxil edin">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Email ünvanınızı daxil edin">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Əlaqə nömrənizi daxil edin">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Şirkət</label>
+                            <input type="text" id="company" name="company" placeholder="Şirkətinizin adı (istəyə bağlı)">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Maraxlandığınız Xidmət</label>
+                            <select id="service" name="service">
+                                <option value="">Seçin</option>
+                                <option value="accounting">Mühasibatlıq Hesabatları</option>
+                                <option value="tax">Vergi Hesablanması</option>
+                                <option value="banking">Bank Hesablarının İdarəsi</option>
+                                <option value="payroll">Maaşların İdarəsi</option>
+                                <option value="hr">İşçi Hesabatları</option>
+                                <option value="consulting">Maliyyə Konsultasiyası</option>
+                                <option value="other">Digər</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Sualınızı və ya təklifinizi yazın..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Göndər</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-placeholder">
+                <div class="map-content">
+                    <h3>📍 Ofisimizə Gəlin</h3>
+                    <p>Bakı şəhəri, Nizami küçəsi 123</p>
+                    <p class="map-note">Interaktiv xəritə burada yerləşdiriləcək</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tez-tez Verilən Suallar</h2>
+                <p>Ən çox verilən suallara cavablar</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Xidmət haqları nə qədərdir?</h4>
+                    <p>Xidmət haqları biznesinizin ölçüsündən və ehtiyaclarından asılı olaraq dəyişir. Pulsuz konsultasiya zamanı sizə fərdi təklif hazırlayırıq.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Müqavilə necə bağlanır?</h4>
+                    <p>İlk görüşdən sonra tərəflər arasında rəsmi müqavilə imzalanır. Müqavilədə bütün xidmətlər, öhdəliklər və haqlar əks olunur.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Konfidensiallıq necə təmin edilir?</h4>
+                    <p>Bütün müştəri məlumatları tam məxfilik altında saxlanılır. Əməkdaşlarımızla gizlilik müqaviləsi imzalanır.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Hansı sahələrdə işləyirsiniz?</h4>
+                    <p>Biz hər növ bizneslə işləyirik: kiçik və orta biznes, böyük şirkətlər, fərdi sahibkarlar, QHT-lər və s.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Accounting<span>Pro</span></h3>
+                <p>2005-ci ildən etibarən mühasibatlıq xidmətlərində etibarlı tərəfdaşınız.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Əlaqə</h4>
+                <p>📍 Bakı, Azərbaycan</p>
+                <p>📞 +994 50 000 00 00</p>
+                <p>✉️ info@accountingpro.az</p>
+            </div>
+            <div class="footer-section">
+                <h4>İstinadlar</h4>
+                <ul>
+                    <li><a href="index.html">Əsas Səhifə</a></li>
+                    <li><a href="about.html">Haqqımızda</a></li>
+                    <li><a href="services.html">Xidmətlərimiz</a></li>
+                    <li><a href="contact.html">Əlaqə</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AccountingPro. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
